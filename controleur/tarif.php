@@ -1,14 +1,14 @@
 <?php
 
-include_once "$racine/modele/bd.resto.inc.php";
-include_once "$racine/modele/bd.photo.inc.php";
+include_once "$racine/modele/bd.expo.inc.php";
+
 
 
 // recuperation des donnees GET, POST, et SESSION
 ;
 
 // appel des fonctions permettant de recuperer les donnees utiles a l'affichage
-$expo = getExpositions();
+$expos = getExpositions();
 
 // traitement si necessaire des donnees recuperees
 ;
